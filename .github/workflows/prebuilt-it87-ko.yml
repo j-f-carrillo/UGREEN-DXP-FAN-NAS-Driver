@@ -6,7 +6,7 @@ on:
       kernel_version:
         description: 'Target kernel release (uname -r), e.g. 6.18.38-Unraid'
         required: true
-        default: '6.18.38-Unraid'
+        default: '6.18.54-Unraid'
       kernel_headers_url:
         description: 'URL to a tar/tar.gz/tar.xz/txz archive containing a prepared kernel build tree'
         required: true
